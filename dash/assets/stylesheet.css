@@ -1,0 +1,92 @@
+.navbar {
+    height: 100%;
+    margin: 0px -10px 10px;
+    background-color: #33ccff;
+    border-radius: 2px;
+}
+
+.navbar_logo {
+    border-right: 5px solid white;
+    height: 100%;
+    display:table-cell;
+    horizontal-align:middle;
+    width:150px;
+}
+.navbar_logo Img{
+    display:inline;
+    
+    padding-right: 10%;	
+    padding-left: 10%; 
+    height: 100px;
+    horizontal-align:center;
+}
+
+.navbar_logo H2{
+    display:inline-block;
+    color: white;
+       
+    padding-right: 5%;	
+    padding-left: 5%; ;
+    text-algin: center;
+    horizontal-align:center;
+}
+
+.navbar_logo A{
+    text-decoration: none;
+}
+
+.navbar_links{
+    display:table-cell;
+    height: 100%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+
+    }
+
+.navbar_links Img{
+    height: 60px;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+
+}
+
+
+.navbar_links H4{
+    color:white;
+    padding-right: 5%;
+    padding-left: 5%;  
+}
+
+.navbar_links A{
+    text-decoration: none;
+}
+
+
+.navbar_login_name {
+    display:table-cell;
+    height: 100%;
+    margin-left: 1%;
+    border-left: 5px solid white;
+    vertical-align:middle;
+    }
+
+.navbar_login_name H3{
+  
+    text-align: center;
+    color: white; 
+}
+
+
+.table {
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+.viewer {
+    display':inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
