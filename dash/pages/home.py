@@ -8,7 +8,7 @@ from pages import common_modules
 
 layout=html.Div([
                 common_modules.get_navbar(),
-                html.Div(html.Img(src='/assets/pictures/home.png'),style={'horizontal-align':'middle','padding-left':'10%','padding-right':'10%'})
+                html.Div(html.Img(src='/assets/pictures/work_in_progress.png'),style={'horizontal-align':'middle','padding-left':'10%','padding-right':'10%'})
                 ]
 
 

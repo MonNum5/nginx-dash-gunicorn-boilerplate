@@ -22,7 +22,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 #import app and pages
-from pages import home, blending, optimization, dum, assess_fuel
+from pages import home, dum
 
 #other imports
 import os
@@ -30,7 +30,7 @@ import sys
 from flask import request
 
 #change directory
-root=os.getcwd()+'/' #Uwe fragen wie das zu verallgemeinern ist
+root=os.getcwd()+'/'
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
@@ -49,11 +49,11 @@ def display_page(pathname):
     elif pathname == '/compare_fuels':
          return dum.layout
     elif pathname == '/blending':
-         return blending.layout
+         return dum.layout
     elif pathname == '/optimization':
-         return optimization.layout
+         return dum.layout
     elif pathname =='/assess_fuel':
-         return assess_fuel.layout
+         return dum.layout
     elif pathname == '/dum':
          return dum.layout
     else:
